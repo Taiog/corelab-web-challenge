@@ -1,11 +1,12 @@
-import styles from './Vehicles.module.scss'
+import Layout from '../../components/Layout/Layout'
+import styles from './Notes.module.scss'
 
-const VehiclesPage = () => {
+const NotesPage = () => {
   return (
-    <div className={styles.Vehicles}>
-      <main className={styles.main}></main>
-    </div>
+    <Layout>
+      <div>TESTE</div>
+    </Layout>
   )
 }
 
-export default VehiclesPage
+export default NotesPage

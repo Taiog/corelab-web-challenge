@@ -1,5 +1,5 @@
 module.exports = {
-  root: true, // Marca a raiz do projeto, pode ajudar a evitar problemas de configuração
+  root: true,
   env: {
     browser: true,
     es2021: true,
@@ -20,7 +20,7 @@ module.exports = {
   },
   settings: {
     react: {
-      version: 'detect', // Detecta automaticamente a versão do React
+      version: 'detect',
     },
   },
   rules: {
