@@ -1,11 +1,10 @@
-export interface IVehicle {
-  id: number;
-  name: string;
-  description: string;
-  plate: string;
-  isFavorite: boolean;
-  year: number;
-  color: string;
-  price: number;
-  createdAt: Date;
+export interface INote {
+  id: number
+  title: string
+  description: string
+  archiveUrl: string
+  isFavorite: boolean
+  color: string
+  createdAt: Date
+  updatedAt: Date
 }
