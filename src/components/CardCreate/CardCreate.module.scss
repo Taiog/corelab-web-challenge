@@ -1,0 +1,51 @@
+.boxCardCreate {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    max-width: 530px;
+    background-color: #ffffff;
+    border: 1px solid #D9D9D9;
+    border-radius: 25px;
+    box-shadow: 1px 1px 3px 0px #00000040;
+    max-height: 435px;
+}
+
+.headerCardCreate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+    border-bottom: 1px solid #D9D9D9;
+    gap: 12px;
+    input {
+        color: #333333;
+        font-size: 14px;
+        font-weight: 700;
+        border: none;
+        width: 100%;
+        &:focus {
+            outline: none;
+            border: none
+        }
+    };
+    img {
+        width: 20px;
+        height: 20px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.boxTextArea {
+    padding: 10px 20px 10px 20px;
+    textarea {
+        resize: none;
+        overflow: auto;
+        border: none;
+        &:focus {
+            border: none;
+            outline: none;
+        }
+    }
+}
