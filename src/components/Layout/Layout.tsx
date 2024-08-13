@@ -12,7 +12,7 @@ const Layout = ({ children }: LayoutProps) => {
       <Header />
       <div className={styles.content}>
         <CardCreate />
-        <div>{children}</div>
+        {children}
       </div>
     </div>
   )

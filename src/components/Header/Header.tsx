@@ -20,9 +20,6 @@ const Header = () => {
           )}
         </div>
       </div>
-      <div className={styles.boxClear}>
-        <img src="./VectorX.png" />
-      </div>
     </div>
   )
 }

@@ -18,7 +18,7 @@ function CardCreate() {
         <img src={starred ? './starMarked.png' : './Star.png'} onClick={() => setStarred(!starred)} />
       </div>
       <div className={styles.boxTextArea}>
-        <textarea placeholder="Criar nota..." style={{ width: '100%', maxHeight: '3500px' }} id="auto-resize-textarea" />
+        <textarea placeholder="Criar nota..." style={{ width: '100%', maxHeight: '350px' }} id="auto-resize-textarea" />
       </div>
     </div>
   )
